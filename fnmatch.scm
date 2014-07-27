@@ -2,8 +2,7 @@
 
 (module fnmatch (fnmatch)
 
-;; TODO: try removing utf8 egg
-(import utf8 scheme chicken foreign)
+(import scheme chicken foreign)
 (use lolevel)
 
 (foreign-declare "#include <fnmatch.h>")

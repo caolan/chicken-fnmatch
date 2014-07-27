@@ -1,13 +1,10 @@
 (use fnmatch test)
 
 (test-group "basic use"
-
   (test "defaults - pass" #t
         (fnmatch "?/some/pattern/*.scm" "./some/pattern/test.scm"))
-
   (test "defaults - fail1" #f
         (fnmatch "/some/pattern/*.scm" "/some/test.scm"))
-
   (test "defaults - fail2" #f
         (fnmatch "/some/pattern/*.scm" "/some/pattern/asdf")))
 

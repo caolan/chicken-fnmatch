@@ -2,5 +2,4 @@
  (author "Caolan McMahon")
  (category os)
  (license "BSD")
- (needs utf8)
  (test-depends test))
