@@ -1,0 +1,7 @@
+(compile -O2 -d1 -s "fnmatch.scm" -Iinclude -j "fnmatch")
+(compile -O2 -d0 -s "fnmatch.import.scm")
+
+(install-extension
+  'fnmatch
+  '("fnmatch.so" "fnmatch.import.so")
+  '((version "3.5.3")))

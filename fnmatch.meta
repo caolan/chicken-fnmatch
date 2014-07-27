@@ -1,0 +1,6 @@
+((synopsis "Test filenames against shell wildcard patterns using fnmatch")
+ (author "Caolan McMahon")
+ (category os)
+ (license "BSD")
+ (needs utf8)
+ (test-depends test))
