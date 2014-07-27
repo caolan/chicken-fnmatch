@@ -1,7 +1,7 @@
-# CHICKEN Scheme bindings for fnmatch(3)
+# chicken-fnmatch 
 
-Provides glob-like pattern matching for filenames using shell wildcard
-patterns.
+CHICKEN Scheme bindings for fnmatch(3). Provides glob-like pattern matching for
+filenames using shell wildcard patterns.
 
 ## Example use
 
