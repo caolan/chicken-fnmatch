@@ -1,5 +1,3 @@
-(require-extension utf8)
-
 (module fnmatch (fnmatch)
 
 (import scheme chicken foreign)
