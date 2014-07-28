@@ -1,3 +1,4 @@
 (repo git "git://github.com/caolan/chicken-fnmatch.git")
 (uri targz "https://github.com/caolan/chicken-fnmatch/tarball/{egg-release}")
 (release "1.0.0")
+(release "1.0.1")
